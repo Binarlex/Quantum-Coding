@@ -1,0 +1,8 @@
+qc.reset(3);
+var reg1= qint.new(2,'register 1')
+var reg2= qint.new(1,'register 2')
+reg1.write(1);
+reg2.write(2);
+reg1.had();
+qc.phase(45, 0x4, 0x1);
+qc.phase(90, 0x4, 0x1);
